@@ -15,4 +15,4 @@ pytrends==4.9.2
 beautifulsoup4==4.12.2
 httpx==0.25.2
 apscheduler==3.10.4
-snscrape==0.6.2
+snscrape==0.6.2.20230320
