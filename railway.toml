@@ -1,0 +1,12 @@
+[build]
+builder = "nixpacks"
+buildCommand = "pip install -r requirements.txt && playwright install chromium"
+
+[deploy]
+startCommand = "uvicorn agent_service:app --host 0.0.0.0 --port $PORT"
+healthcheckPath = "/health"
+restartPolicyType = "always"
+
+[[crons]]
+schedule = "*/1 13-21 * * 1-5"
+command = "curl $RAILWAY_PUBLIC_DOMAIN/health"
