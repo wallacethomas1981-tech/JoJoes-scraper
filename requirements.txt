@@ -13,7 +13,7 @@ torch==2.2.1
 beautifulsoup4==4.12.3
 cloudscraper==1.2.71
 lxml==5.1.0
-snscrape==0.7.0
+snscrape==0.7.0.20230622
 yfinance==0.2.37
 websockets==12.0
 supabase==2.4.0
