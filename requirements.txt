@@ -2,7 +2,7 @@ fastapi==0.109.0
 uvicorn[standard]==0.27.0
 httpx==0.26.0
 praw==7.7.1
-ntfy==0.1.0
+ntfy==2.7.1
 apscheduler==3.10.4
 pytrends==4.9.2
 feedparser==6.0.11
